@@ -1,14 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'scenario3-component1',
+  selector: 'scenario4-component1',
   templateUrl: './component1.component.html',
   styleUrls: ['./component1.component.css']
 })
+export class Scenario4Component1 implements OnInit {
 
-export class Scenario3Component1 implements OnInit {
-
-  public name=""
+  public message="";
   constructor() { }
 
   ngOnInit() {
