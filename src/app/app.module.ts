@@ -4,14 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { Scenario4Component1 } from './Scenario4/component1/component1.component';
-import { Scenario4Component2 } from './Scenario4/component2/component2.component';
+import { Scenario5Component1 } from './Scenario5/component1/component1.component';
+import { Scenario5Component2 } from './Scenario5/component2/component2.component';
+import { Scenario5Component3 } from './Scenario5/component3/component3.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Scenario4Component1,
-    Scenario4Component2
+    Scenario5Component1,
+    Scenario5Component2,
+    Scenario5Component3
   ],
   imports: [
     BrowserModule,
